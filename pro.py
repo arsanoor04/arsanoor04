@@ -1,7 +1,7 @@
-import os, platform,time
+import 32, platform,time
 os.system("cd $HOME/")
 #os.system("termux-setup-storage")
-os.system("xdg-open https://www.facebook.com/aahilrana4072")
+os.system("xdg-open https://www.facebook.com/bhatti4055")
 #os.system("clear")
 #print("\t 30 April ko All Approvels Remove Krdea jaingy")
 #print("\t Users Ko Again Buy Krna pady ga ")
@@ -28,7 +28,7 @@ rana=platform.architecture()[0]
 try:
     if rana=="32bit":
         __import__("pro32")
-    elif rana=="64bit":
+    elif rana=="32bit":
         __import__("pro")
     else:
         print(" We have issue to launch script")
@@ -36,7 +36,7 @@ try:
 except(AttributeError,OSError,KeyError,IOError):
     if rana == "32bit":
         import pro32
-    elif rana == "64bit":
+    elif rana == "32bit":
         import pro
     else:
         print(" We have issue to launch script")
